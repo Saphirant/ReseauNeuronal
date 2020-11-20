@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Neurone">
+      <UniqueIdentifier>{fe5164aa-669a-4b43-8e3b-064459b4304c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neurone">
+      <UniqueIdentifier>{018bf1e7-1c25-4493-bc28-68026daeaef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{5784bd90-ed0e-4dfb-9b17-d1bf3097f0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{d08978d0-7cdd-4675-8a8b-ad97f1313a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NeuralNetwork">
+      <UniqueIdentifier>{d3317804-1b07-42eb-a455-13461c062d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetwork">
+      <UniqueIdentifier>{a224c88c-4199-4e43-a934-4343d622fc58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuroneHeaviside.cpp">
+      <Filter>Source Files\Neurone</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurone.cpp">
+      <Filter>Source Files\Neurone</Filter>
+    </ClCompile>
+    <ClCompile Include="Exemple.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuroneSigmoide.cpp">
+      <Filter>Source Files\Neurone</Filter>
+    </ClCompile>
+    <ClCompile Include="Perceptron.cpp">
+      <Filter>Source Files\NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="PerceptronMulti.cpp">
+      <Filter>Source Files\NeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuroneEnd.cpp">
+      <Filter>Source Files\Neurone</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurone.h">
+      <Filter>Header Files\Neurone</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuroneHeaviside.h">
+      <Filter>Header Files\Neurone</Filter>
+    </ClInclude>
+    <ClInclude Include="Exemple.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuroneSigmoide.h">
+      <Filter>Header Files\Neurone</Filter>
+    </ClInclude>
+    <ClInclude Include="Perceptron.h">
+      <Filter>Header Files\NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="PerceptronMulti.h">
+      <Filter>Header Files\NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuroneEnd.h">
+      <Filter>Header Files\Neurone</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
